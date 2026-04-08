@@ -46,23 +46,31 @@
                 ☰
             </button>
 
-            <a class="navbar-brand" href="#">Shopping Gads</a>
+            <a class="navbar-brand" href="../index.html">Shopping Gads</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Left links -->
                 <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            More
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">About</a></li>
+                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                        </ul>
                     </li>
+                </ul>
 
-
-                <!-- SEARCH -->
-                <form class="d-flex">
+                <!-- Search form -->
+                <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search">
-                    <button class="btn btn-outline-success">Search</button>
+                    <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
             </div>
         </div>
