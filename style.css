@@ -1,0 +1,27 @@
+.card-img-top {
+    height: 200px;      /* or whatever works visually */
+    object-fit: cover;  /* crops without distortion */
+}
+
+.card-img-top {
+    width: 100%;
+    height: 180px;       /* fixed height for all images */
+    object-fit: contain;
+    object-position: center;
+    background-color: #333;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* push button to bottom */
+    height: 180px; /* optional, make all card bodies same height */
+}
+
+.card-text {
+    overflow: hidden;        /* prevents long text from breaking layout */
+    text-overflow: ellipsis; /* adds ... if text too long */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;   /* show max 3 lines */
+    -webkit-box-orient: vertical;
+}

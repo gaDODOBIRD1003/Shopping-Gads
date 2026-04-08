@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Desk Peripherals</title>
+    
+    <style>
+        .card-img-top {
+            width: 100%;
+            height: 180px;       
+            object-fit: contain;
+            object-position: center;
+            background-color: #333;
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; 
+            height: 180px; 
+        }
+
+        .card-text {
+            overflow: hidden;       
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;   
+            -webkit-box-orient: vertical;
+        }
+    </style>
+
+</head>
+
+<body style="background-color:#506856;">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+
+            <!-- Sidebar Toggle Button -->
+            <button class="btn btn-outline-light me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar">
+                ☰
+            </button>
+
+            <a class="navbar-brand" href="#">Shopping Gads</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                </ul>
+
+                <!-- SEARCH -->
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- OFFCANVAS SIDEBAR -->
+    <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="sidebar">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Categories</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="list-group">
+                <a href="../pages/clothes.html" class="list-group-item list-group-item-action bg-dark text-white">Clothes</a>
+                <a href="../pages/computer_accessories.html" class="list-group-item list-group-item-action bg-dark text-white">Computer</a>
+                <a href="../pages/gaming_peripherals.html" class="list-group-item list-group-item-action bg-dark text-white">Gaming</a>
+                <a href="../pages/alcoholic_beverages.html" class="list-group-item list-group-item-action bg-dark text-white">Alcoholic Beverages</a>
+                <a href="../pages/desk_peripherals.html" class="list-group-item list-group-item-action bg-dark text-white">Desk Peripherals</a>
+                <a href="../pages/instruments.html" class="list-group-item list-group-item-action bg-dark text-white">Instruments</a>
+                <a href="../pages/audio_equipment.html" class="list-group-item list-group-item-action bg-dark text-white">Audio</a>
+                <a href="../pages/motorcycle_gear.html" class="list-group-item list-group-item-action bg-dark text-white">Motorcycle Gear</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- MAIN CONTENT -->
+    <div class="container mt-4">
+        <h1 style="color: white;">Desk Peripherals</h1>
+        <p style="color: white;">Discover our range of high-quality desk accessories</p>
+    </div>
+
+    <!-- ITEM CARDS -->
+    <div class="container text-center mt-4">
+
+        <!-- ROW 1 -->
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/desk.webp" class="card-img-top" alt="ELLOVEN monitor stand with drawer">
+                    <div class="card-body">
+                        <h5 class="card-title">ELLOVEN monitor stand with drawer</h5>
+                        <p class="card-text">ELLOVEN monitor stand with drawer</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/desk2.webp" class="card-img-top" alt="SKRUTT desk pad">
+                    <div class="card-body">
+                        <h5 class="card-title">SKRUTT desk pad</h5>
+                        <p class="card-text">SKRUTT desk pad</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/desk3.webp" class="card-img-top" alt="Xiaomi Mi Computer Monitor Light Bar Black">
+                    <div class="card-body">
+                        <h5 class="card-title">Xiaomi Mi Computer Monitor Light Bar Black</h5>
+                        <p class="card-text">Xiaomi Mi Computer Monitor Light Bar Black</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ROW 2 -->
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/desk4.webp" class="card-img-top" alt="MICKE desk, white, 105x50 cm">
+                    <div class="card-body">
+                        <h5 class="card-title">MICKE desk, white, 105x50 cm</h5>
+                        <p class="card-text">MICKE desk, white, 105x50 cm</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/desk5.webp" class="card-img-top" alt="elago Organize Your Desk with Smart Magnetic Desk Mat">
+                    <div class="card-body">
+                        <h5 class="card-title">elago Organize Your Desk with Smart Magnetic Desk Mat</h5>
+                        <p class="card-text">elago Organize Your Desk with Smart Magnetic Desk Mat</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/desk6.webp" class="card-img-top" alt="Foldable Desk Phone Holder">
+                    <div class="card-body">
+                        <h5 class="card-title">Foldable Desk Phone Holder</h5>
+                        <p class="card-text">Foldable Desk Phone Holder Universal Cellphone Stand Telescopic And Fully Adjustable</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ROW 3 -->
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/desk7.webp" class="card-img-top" alt="3X Webcam Stand ">
+                    <div class="card-body">
+                        <h5 class="card-title">3X Webcam Stand</h5>
+                        <p class="card-text">3X Webcam Stand Upgraded Webcam Mount Stand With Flexible Gooseneck Arm And Clamp Suit For Webcam</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/desk8.webp" class="card-img-top" alt="Fender Desk Organizer">
+                    <div class="card-body">
+                        <h5 class="card-title">Fender Desk Organizer</h5>
+                        <p class="card-text">Fender Desk Organizer</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/desk9.webp" class="card-img-top" alt="Multi-Purpose Desk Organizer with 4 Compartments">
+                    <div class="card-body">
+                        <h5 class="card-title">Multi-Purpose Desk Organizer with 4 Compartments</h5>
+                        <p class="card-text">Multi-Purpose Desk Organizer with 4 Compartments</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ROW 4 -->
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/desk10.webp" class="card-img-top" alt="Benq Screenbar Pro Monitor Lamp">
+                    <div class="card-body">
+                        <h5 class="card-title">Benq Screenbar Pro Monitor Lamp</h5>
+                        <p class="card-text">Benq Screenbar Pro Monitor Lamp</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/desk11.webp" class="card-img-top" alt="Bostitch Office Konnect Desk Organizer and Charging Station">
+                    <div class="card-body">
+                        <h5 class="card-title">Bostitch Office Konnect Desk Organizer and Charging Station</h5>
+                        <p class="card-text">Bostitch Office Konnect Desk Organizer and Charging Station 2 USB Ports & 2 Plugs</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/desk12.webp" class="card-img-top" alt="Speaker Stand Monitor Riser">
+                    <div class="card-body">
+                        <h5 class="card-title">Speaker Stand Monitor Riser</h5>
+                        <p class="card-text">Speaker Stand Monitor Riser Holder Desk Computer Game Table Bracket Studio Desktop Stands Metal</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ROW 5 -->
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/desk13.webp" class="card-img-top" alt="Logitech C920e Webcam">
+                    <div class="card-body">
+                        <h5 class="card-title">Logitech C920e Webcam</h5>
+                        <p class="card-text">Logitech C920e Webcam</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/desk14.webp" class="card-img-top" alt="Adesso Kiu LED Desk Lamp">
+                    <div class="card-body">
+                        <h5 class="card-title">Adesso Kiu LED Desk Lamp</h5>
+                        <p class="card-text">Adesso Kiu LED Desk Lamp</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/desk15.webp" class="card-img-top" alt="Varmilo Shurikey Hanzo 003 Mousepad">
+                    <div class="card-body">
+                        <h5 class="card-title">Varmilo Shurikey Hanzo 003 Mousepad</h5>
+                        <p class="card-text">Varmilo shurikey hanzo 003 Mousepad 90 40 x 0.3 cm Dimensions</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+

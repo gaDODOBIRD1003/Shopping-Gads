@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <title>Computer Accessories</title>
+
+    <style>
+        .card-img-top {
+            width: 100%;
+            height: 180px;       
+            object-fit: contain;
+            object-position: center;
+            background-color: #333;
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; 
+            height: 180px; 
+        }
+
+        .card-text {
+            overflow: hidden;        
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;   
+            -webkit-box-orient: vertical;
+        }
+    </style>
+
+</head>
+
+<body style="background-color:#506856;">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+
+            <!-- Sidebar Toggle Button -->
+            <button class="btn btn-outline-light me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar">
+                ☰
+            </button>
+
+            <a class="navbar-brand" href="#">Shopping Gads</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                </ul>
+
+                <!-- SEARCH -->
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- OFFCANVAS SIDEBAR -->
+    <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="sidebar">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Categories</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="list-group">
+                <a href="../pages/clothes.html" class="list-group-item list-group-item-action bg-dark text-white">Clothes</a>
+                <a href="../pages/computer_accessories.html" class="list-group-item list-group-item-action bg-dark text-white">Computer</a>
+                <a href="../pages/gaming_peripherals.html" class="list-group-item list-group-item-action bg-dark text-white">Gaming</a>
+                <a href="../pages/alcoholic_beverages.html" class="list-group-item list-group-item-action bg-dark text-white">Alcoholic Beverages</a>
+                <a href="../pages/desk_peripherals.html" class="list-group-item list-group-item-action bg-dark text-white">Desk Peripherals</a>
+                <a href="../pages/instruments.html" class="list-group-item list-group-item-action bg-dark text-white">Instruments</a>
+                <a href="../pages/audio_equipment.html" class="list-group-item list-group-item-action bg-dark text-white">Audio</a>
+                <a href="../pages/motorcycle_gear.html" class="list-group-item list-group-item-action bg-dark text-white">Motorcycle Gear</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- MAIN CONTENT -->
+    <div class="container mt-4">
+        <h1 style="color: white;">Computer Accessories</h1>
+        <p style="color: white;">High-quality accessories for your computing needs</p>
+    </div>
+
+    <!-- ITEM CARDS -->
+    <div class="container text-center mt-4">
+
+        <!-- ROW 1 -->
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/pc_case.webp" class="card-img-top" alt="PC Case">
+                    <div class="card-body">
+                        <h5 class="card-title">Inplay Openview V300 PC Case</h5>
+                        <p class="card-text">Inplay Openview V300 PC Case With Tempered Glass Mid-Tower M-ATX Desktop Case Gaming Casing For PC</p>
+                        <a href="../index.html" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/ram_stick.jpg" class="card-img-top" alt="Ramstick">
+                    <div class="card-body">
+                        <h5 class="card-title">Kingston Fury Beast RGB DDR4 32GB Dual Kit</h5>
+                        <p class="card-text">Kingston Fury Beast RGB DDR4 32GB Dual Kit 16Gbit DIMM RAM Desktop Memory Black</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/ATX_PSU.png" class="card-img-top" alt="Power Supply">
+                    <div class="card-body">
+                        <h5 class="card-title">Inplay Computer ATX Power Supply</h5>
+                        <p class="card-text">Inplay Computer ATX Power Supply 450W/550W/650W/750W Clearesult Certified 80Plus Bronze PSU</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ROW 2 -->
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/pc_case_2.webp" class="card-img-top" alt="PC Case">
+                    <div class="card-body">
+                        <h5 class="card-title">Inplay Meteor 03 PC Case</h5>
+                        <p class="card-text">Inplay Meteor 03 PC Case Tempered Glass Gaming Computer Casing ATX Desktop Case For PC Computer</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/ssd.webp" class="card-img-top" alt="SSD">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung 990 PRO 1TB/2TB/4TB NVMe M.2 Internal SSD</h5>
+                        <p class="card-text">Samsung 990 PRO 1TB/2TB/4TB NVMe M.2 Internal SSD / Solid State Drive</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/ram_stick_2.webp" class="card-img-top" alt="Ramstick">
+                    <div class="card-body">
+                        <h5 class="card-title">G.Skill Trident Z5 Neo RGB DDR5-6000 CL36 32GB (2x16GB)</h5>
+                        <p class="card-text">G.Skill Trident Z5 Neo RGB DDR5-6000 CL36 32GB (2x16GB) AMD EXPO Memory Kit F5-6000J3636F16GX2-TZ5NR</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ROW 3 -->
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/cpu.webp" class="card-img-top" alt="CPU">
+                    <div class="card-body">
+                        <h5 class="card-title">AMD Ryzen 7 7700 Desktop Processor</h5>
+                        <p class="card-text">AMD Ryzen 7 7700 Desktop Processor Build-in GPU 8-Core 16-Thread CPU 5NM L3=32M Socket AM5 Processor</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/gpu.webp" class="card-img-top" alt="GPU">
+                    <div class="card-body">
+                        <h5 class="card-title">IPASON | Colorful GeForce RTX 5060 Gaming</h5>
+                        <p class="card-text">IPASON | Colorful GeForce RTX 5060 Gaming DUO 8GB-V/Ultra W DUO OC 8GB-V Graphics Card for Desktop</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/gpu_2.png" class="card-img-top" alt="GPU">
+                    <div class="card-body">
+                        <h5 class="card-title">MSI GeForce RTX 3050</h5>
+                        <p class="card-text">MSI Geforce RTX 3050 Ventus 2X E 6GB OC GDDR6 Graphics Card</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ROW 4 -->
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/fan_2.webp" class="card-img-top" alt="FAN">
+                    <div class="card-body">
+                        <h5 class="card-title">DarkFlash DM12F A-RGB 3-in-1</h5>
+                        <p class="card-text">DarkFlash DM12F A-RGB 3-in-1 Cooling Fan with Remote Control</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/gpu_3.png" class="card-img-top" alt="GPU">
+                    <div class="card-body">
+                        <h5 class="card-title">MSI RTX 5070 12GB GDDR7 Gaming</h5>
+                        <p class="card-text">MSI RTX 5070 12GB GDDR7 Gaming Trio OC Geforce Graphic Card</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/fan.webp" class="card-img-top" alt="FAN">
+                    <div class="card-body">
+                        <h5 class="card-title">Inplay Omniview OLC240/360 AIO Liquid Cooler</h5>
+                        <p class="card-text">Inplay Omniview OLC240/360 AIO Liquid Cooler ARGB 4Pin 5V3Pin AIO Liquid Cooling CPU Heatsink Cooler</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ROW 5 -->
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/mobo.webp" class="card-img-top" alt="Motherboard">
+                    <div class="card-body">
+                        <h5 class="card-title">ASUS Prime B550M-A WiFi II AM4</h5>
+                        <p class="card-text">ASUS Prime B550M-A WiFi II AM4 Micro-ATX DDR4 Gaming Motherboard itw</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/mobo_2.webp" class="card-img-top" alt="Motherboard">
+                    <div class="card-body">
+                        <h5 class="card-title">Asus ROG Strix B850-G Gaming WiFi AMD AM5</h5>
+                        <p class="card-text">Asus ROG Strix B850-G Gaming WiFi AMD AM5 DDR5 micro-ATX Motherboard</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/mobo_3.webp" class="card-img-top" alt="Motherboard">
+                    <div class="card-body">
+                        <h5 class="card-title">Gigabyte Bundle Motherboard AMD Ryzen 7 with X870 Aorus Elite Wifi7 ATX AM5</h5>
+                        <p class="card-text">Gigabyte Bundle Motherboard AMD Ryzen 7 9800X3D with X870 Aorus Elite Wifi7 ATX AM5 DDR5</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

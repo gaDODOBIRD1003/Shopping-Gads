@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Instruments</title>
+    
+    <style>
+        .card-img-top {
+            width: 100%;
+            height: 180px;      
+            object-fit: contain;
+            object-position: center;
+            background-color: #333;
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; 
+            height: 180px; 
+        }
+
+        .card-text {
+            overflow: hidden;       
+            text-overflow: ellipsis; 
+            display: -webkit-box;
+            -webkit-line-clamp: 3;   
+            -webkit-box-orient: vertical;
+        }
+    </style>
+    
+</head>
+
+<body style="background-color:#506856;">
+
+     <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+
+            <!-- Sidebar Toggle Button -->
+            <button class="btn btn-outline-light me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar">
+                ☰
+            </button>
+
+            <a class="navbar-brand" href="#">Shopping Gads</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                </ul>
+
+                <!-- SEARCH -->
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- OFFCANVAS SIDEBAR -->
+    <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="sidebar">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Categories</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="list-group">
+                <a href="../pages/clothes.html" class="list-group-item list-group-item-action bg-dark text-white">Clothes</a>
+                <a href="../pages/computer_accessories.html" class="list-group-item list-group-item-action bg-dark text-white">Computer</a>
+                <a href="../pages/gaming_peripherals.html" class="list-group-item list-group-item-action bg-dark text-white">Gaming</a>
+                <a href="../pages/alcoholic_beverages.html" class="list-group-item list-group-item-action bg-dark text-white">Alcoholic Beverages</a>
+                <a href="../pages/desk_peripherals.html" class="list-group-item list-group-item-action bg-dark text-white">Desk Peripherals</a>
+                <a href="../pages/instruments.html" class="list-group-item list-group-item-action bg-dark text-white">Instruments</a>
+                <a href="../pages/audio_equipment.html" class="list-group-item list-group-item-action bg-dark text-white">Audio</a>
+                <a href="../pages/motorcycle_gear.html" class="list-group-item list-group-item-action bg-dark text-white">Motorcycle Gear</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- MAIN CONTENT -->
+    <div class="container mt-4">
+        <h1 style="color: white;">Instruments</h1>
+        <p style="color: white;">Discover our range of high-quality instruments</p>
+    </div>
+
+       <!-- ITEM CARDS -->
+    <div class="container text-center mt-4">
+
+        <!-- ROW 1 -->
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/instrument.webp" class="card-img-top" alt="RIXTON Electric Digital Drum Set">
+                    <div class="card-body">
+                        <h5 class="card-title">RIXTON Electric Digital Drum Set</h5>
+                        <p class="card-text">RIXTON Electric Digital Drum Set With Drumsticks and Sustain Foot Pedal Silicone Electric Drum Sets.</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/instrument_2.webp" class="card-img-top" alt="Kalimba Thumb Piano">
+                    <div class="card-body">
+                        <h5 class="card-title">Kalimba Thumb Piano</h5>
+                        <p class="card-text">Kalimba Thumb Piano 21 Keys, Portable Mbira Finger Piano Gifts for Kids and Adults Beginners Wood</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/instrument_3.webp" class="card-img-top" alt="Rixton 37 Keys Digital Wood Piano">
+                    <div class="card-body">
+                        <h5 class="card-title">Rixton 37 Keys Digital Wood Piano</h5>
+                        <p class="card-text">Rixton 37 Keys Digital Wood Piano Real Keyboards Semi Weighted Keys Suitable for Beginners / Adults</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ROW 2 -->
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/instrument_4.webp" class="card-img-top" alt="RIXTON Silver Metal Harmonica">
+                    <div class="card-body">
+                        <h5 class="card-title">RIXTON Silver Metal Harmonica</h5>
+                        <p class="card-text">RIXTON Silver Metal Harmonica 10Holes Key of C for Blues Rock Professional Beginner Teaching</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/instrument_5.webp" class="card-img-top" alt="Yamaha P-45 Compact 88-Key Portable Digital Piano">
+                    <div class="card-body">
+                        <h5 class="card-title"Yamaha P-45 Compact 88-Key Portable Digital Piano</h5>
+                        <p class="card-text">Yamaha P-45 Compact 88-Key Portable Digital Piano</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/instrument_6.webp" class="card-img-top" alt="Taylor Gold Label 717e Sitka Spruce Acoustic Guitar">
+                    <div class="card-body">
+                        <h5 class="card-title">Taylor Gold Label 717e Sitka Spruce Acoustic Guitar</h5>
+                        <p class="card-text">Taylor Gold Label 717e Sitka Spruce Acoustic Guitar</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ROW 3 -->
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/instrument_7.webp" class="card-img-top" alt="Fernando JBTR-300L Trumpet with case, mouthpiece and gloves">
+                    <div class="card-body">
+                        <h5 class="card-title">Fernando JBTR-300L Trumpet</h5>
+                        <p class="card-text">Fernando JBTR-300L Trumpet with case, mouthpiece and gloves</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/instrument_8.webp" class="card-img-top" alt="Jackson - JS11 JS Series Dinky Amaranth Fingerboard, Electric Guitar (Black)">
+                    <div class="card-body">
+                        <h5 class="card-title">Jackson - JS11 JS Series Dinky Amaranth Fingerboard, Electric Guitar (Black)</h5>
+                        <p class="card-text">Jackson - JS11 JS Series Dinky Amaranth Fingerboard, Electric Guitar (Black).</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/instrument_9.webp" class="card-img-top" alt="Sx Eh3bk Deluxe Les Paul Style Electric Guitar">
+                    <div class="card-body">
+                        <h5 class="card-title">Sx Eh3bk Deluxe Les Paul Style Electric Guitar</h5>
+                        <p class="card-text">Sx Eh3bk Deluxe Les Paul Style Electric Guitar</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ROW 4 -->
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/instrument_10.webp" class="card-img-top" alt="Epiphone Tony Iommi SG Special Electric Guitar - Vintage Cherry EIGCTIMSCHNH">
+                    <div class="card-body">
+                        <h5 class="card-title">Epiphone Tony Iommi SG Special Electric Guitar - Vintage Cherry EIGCTIMSCHNH</h5>
+                        <p class="card-text">Epiphone Tony Iommi SG Special Electric Guitar - Vintage Cherry EIGCTIMSCHNH</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/instrument_11.webp" class="card-img-top" alt="Jcraft Aeon Headless Electric Guitar Locking Tremolo Stainless HTR-3 (Right Hand/Left Hand)">
+                    <div class="card-body">
+                        <h5 class="card-title">Jcraft Aeon Headless Electric Guitar Locking Tremolo Stainless HTR-3 (Right Hand/Left Hand)</h5>
+                        <p class="card-text">Jcraft Aeon Headless Electric Guitar Locking Tremolo Stainless HTR-3 (Right Hand/Left Hand)</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/instrument_12.webp" class="card-img-top" alt="JCraft X Series Bushido BX7-1T 7-String Superstrat Electric Guitar with Free Accessories">
+                    <div class="card-body">
+                        <h5 class="card-title">JCraft X Series Bushido BX7-1T</h5>
+                        <p class="card-text">JCraft X Series Bushido BX7-1T 7-String Superstrat Electric Guitar with Free Accessories</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ROW 5 -->
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/instrument_13.webp" class="card-img-top" alt="Aspire 7 String Electric Guitar">
+                    <div class="card-body">
+                        <h5 class="card-title">Aspire 7 String Electric Guitar</h5>
+                        <p class="card-text">Aspire 7 String Electric Guitar</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/instrument_14.webp" class="card-img-top" alt="JCraft X Series LTX-1">
+                    <div class="card-body">
+                        <h5 class="card-title">JCraft X Series LTX-1</h5>
+                        <p class="card-text">JCraft X Series LTX-1 Electric Guitar with free Accessories</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/instrument_15.webp" class="card-img-top" alt="D&D Signature Series - Balaraw">
+                    <div class="card-body">
+                        <h5 class="card-title">D&D Signature Series - Balaraw</h5>
+                        <p class="card-text">D&D Signature Series - Balaraw Jomal Linao Signature Electric Guitar</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

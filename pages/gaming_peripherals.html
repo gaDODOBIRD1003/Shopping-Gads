@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Gaming Peripherals</title>
+    
+    <style>
+        .card-img-top {
+            width: 100%;
+            height: 180px;      
+            object-fit: contain;
+            object-position: center;
+            background-color: #333;
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; 
+            height: 180px; 
+        }
+
+        .card-text {
+            overflow: hidden;       
+            text-overflow: ellipsis; 
+            display: -webkit-box;
+            -webkit-line-clamp: 3;  
+            -webkit-box-orient: vertical;
+        }
+    </style>
+
+</head>
+
+<body style="background-color:#506856;">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+
+            <!-- Sidebar Toggle Button -->
+            <button class="btn btn-outline-light me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar">
+                ☰
+            </button>
+
+            <a class="navbar-brand" href="#">Shopping Gads</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                </ul>
+
+                <!-- SEARCH -->
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- OFFCANVAS SIDEBAR -->
+    <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="sidebar">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Categories</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="list-group">
+                <a href="../pages/clothes.html" class="list-group-item list-group-item-action bg-dark text-white">Clothes</a>
+                <a href="../pages/computer_accessories.html" class="list-group-item list-group-item-action bg-dark text-white">Computer</a>
+                <a href="../pages/gaming_peripherals.html" class="list-group-item list-group-item-action bg-dark text-white">Gaming</a>
+                <a href="../pages/alcoholic_beverages.html" class="list-group-item list-group-item-action bg-dark text-white">Alcoholic Beverages</a>
+                <a href="../pages/desk_peripherals.html" class="list-group-item list-group-item-action bg-dark text-white">Desk Peripherals</a>
+                <a href="../pages/instruments.html" class="list-group-item list-group-item-action bg-dark text-white">Instruments</a>
+                <a href="../pages/audio_equipment.html" class="list-group-item list-group-item-action bg-dark text-white">Audio</a>
+                <a href="../pages/motorcycle_gear.html" class="list-group-item list-group-item-action bg-dark text-white">Motorcycle Gear</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- MAIN CONTENT -->
+    <div class="container mt-4">
+        <h1 style="color: white;">Gaming</h1>
+        <p style="color: white;">Discover our range of high-performance gaming accessories</p>
+    </div>
+
+       <!-- ITEM CARDS -->
+    <div class="container text-center mt-4">
+
+        <!-- ROW 1 -->
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/gamepad.webp" class="card-img-top" alt="Machenike G3 V2 Tri-Mode Wireless Gaming Controller">
+                    <div class="card-body">
+                        <h5 class="card-title">Machenike G3 V2 Tri-Mode Wireless Gaming Controller</h5>
+                        <p class="card-text">Machenike G3 V2 Tri-Mode Wireless Gaming Controller With Charging Dock, Hall Effect 1000mAh Battery Gamepad For Switch Steam PC</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/mouse.webp" class="card-img-top" alt="Zeus MR-002 ( Beez-Hive ) Wired Gaming Mouse">
+                    <div class="card-body">
+                        <h5 class="card-title">Zeus MR-002 ( Beez-Hive ) Wired Gaming Mouse</h5>
+                        <p class="card-text">Zeus MR-002 ( Beez-Hive ) Wired Gaming Mouse RGB Backlight Gaming - Upgraded Version</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/gamepad_2.webp" class="card-img-top" alt="Gamesir G8+ Bluetooth Mobile Gaming Controller">
+                    <div class="card-body">
+                        <h5 class="card-title">Gamesir G8+ Bluetooth Mobile Gaming Controller</h5>
+                        <p class="card-text">Gamesir G8+ Bluetooth Mobile Gaming Controller</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ROW 2 -->
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/handheld.webp" class="card-img-top" alt="ANBERNIC RG353V Handheld Game Console">
+                    <div class="card-body">
+                        <h5 class="card-title">ANBERNIC RG353V Handheld Game Console</h5>
+                        <p class="card-text">ANBERNIC RG353V RG353VS Retro Games 3.5 Inches 640*480 Handheld Game Console Emulator LINUX Children's Gifts</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/mouse_2.webp" class="card-img-top" alt="Razer Deathadder Essential Gaming Mouse">
+                    <div class="card-body">
+                        <h5 class="card-title">Razer Deathadder Essential Gaming Mouse</h5>
+                        <p class="card-text">Razer Deathadder Essential Gaming Mouse</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/headset.webp" class="card-img-top" alt="LIGHTSPEED Combo G304 Wireless Gaming Mouse and G435 Gaming Headset">
+                    <div class="card-body">
+                        <h5 class="card-title">LIGHTSPEED Combo G304 Wireless Gaming Mouse and G435 Gaming Headset</h5>
+                        <p class="card-text">Logitech G Wireless Gaming LIGHTSPEED Combo G304 Wireless Gaming Mouse and G435 Gaming Headset</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ROW 3 -->
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/keeb.webp" class="card-img-top" alt="Zeus x RAIKU K68 68-Key Compact RGB Gaming Keyboard with 3 Keycaps Color & Multimedia Controls">
+                    <div class="card-body">
+                        <h5 class="card-title">Zeus x RAIKU K68 68-Key Compact RGB Gaming Keyboard</h5>
+                        <p class="card-text">Zeus x RAIKU K68 68-Key Compact RGB Gaming Keyboard with 3 Keycaps Color & Multimedia Controls</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/gamepad_3.webp" class="card-img-top" alt="PXN Mobile Gaming Controller">
+                    <div class="card-body">
+                        <h5 class="card-title">PXN Mobile Gaming Controller</h5>
+                        <p class="card-text">PXN Mobile Gaming Controller Cyan PXN-P30PRO</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/gamepad_4.webp" class="card-img-top" alt="Razer Junglecat Dual-Sided Gaming Controller for Android™">
+                    <div class="card-body">
+                        <h5 class="card-title">Razer Junglecat Dual-Sided Gaming Controller for Android™</h5>
+                        <p class="card-text">Razer Junglecat Dual-Sided Gaming Controller for Android™.</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ROW 4 -->
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/mouse_3.webp" class="card-img-top" alt="Redragon Mirage RGB Wireless Gaming Mouse (M690)">
+                    <div class="card-body">
+                        <h5 class="card-title">Redragon Mirage Wireless Gaming Mouse</h5>
+                        <p class="card-text">Redragon Mirage RGB Wireless Gaming Mouse (M690)</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/mouse_4.webp" class="card-img-top" alt="FANTECH KANATA VX9 Wired Optical Gaming Mouse">
+                    <div class="card-body">
+                        <h5 class="card-title">FANTECH KANATA VX9 Wired Optical Gaming Mouse</h5>
+                        <p class="card-text">FANTECH KANATA VX9 Wired Optical Gaming Mouse</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/headset_2.webp" class="card-img-top" alt="RAZER Barracuda X 2022 - Wireless Multi-Platform Gaming and Mobile Headset">
+                    <div class="card-body">
+                        <h5 class="card-title">RAZER Barracuda X 2022</h5>
+                        <p class="card-text">RAZER Barracuda X 2022 - Wireless Multi-Platform Gaming and Mobile Headset</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ROW 5 -->
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/gamepad_5.webp" class="card-img-top" alt="8BitDo Ultimate 2 Wireless Controller">
+                    <div class="card-body">
+                        <h5 class="card-title">8BitDo Ultimate 2 Wireless Controller</h5>
+                        <p class="card-text">8BitDo Ultimate 2 Wireless Controller with TMR Joysticks, Switchable Hall Effect/Tactile Triggers</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/mouse_5.webp" class="card-img-top" alt="Attack Shark X11 Wireless Mouse">
+                    <div class="card-body">
+                        <h5 class="card-title">Attack Shark X11 Wireless Mouse </h5>
+                        <p class="card-text">Attack Shark X11 Wireless Mouse Paw3311 22000DPI Buletooth Three Mode Rgb Charging Dock Lightweight</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-white card-custom">
+                    <img src="../images/items/keeb_2.webp" class="card-img-top" alt="Aula F75 Gaming Mechanical Keyboard">
+                    <div class="card-body">
+                        <h5 class="card-title">Aula F75 Gaming Mechanical Keyboard</h5>
+                        <p class="card-text">Aula F75 Gaming Mechanical Keyboard 3in1 75% 80 Key RGB Tri-Mode Wired Bluetooth Hot Swappable</p>
+                        <a href="#" class="btn btn-primary">Go To Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
